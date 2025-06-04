@@ -1,0 +1,4 @@
+onlyBuiltDependencies:
+  - deasync
+  - node-llama-cpp
+  - smollm2-1.7b-runner

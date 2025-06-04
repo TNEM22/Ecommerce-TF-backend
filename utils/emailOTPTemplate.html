@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OTP Verification</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f3f4f6;
+        padding: 20px;
+        text-align: center;
+      }
+      .container {
+        background-color: #ffffff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      .otp-code {
+        font-size: 32px;
+        font-weight: bold;
+        letter-spacing: 4px;
+        color: #4caf50;
+        margin: 20px 0;
+      }
+      .footer {
+        margin-top: 20px;
+        font-size: 12px;
+        color: #888888;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div style="width: 100%; display: flex; justify-content: center">
+        <img
+          src="https://res.cloudinary.com/dgcedlhpl/image/upload/v1742489604/white-logo_dmtnfb.png"
+          alt="TeamFortrans Electronics"
+          title="Team Fortrans Electronics"
+        />
+      </div>
+      <h1>Your OTP Code</h1>
+      <p>
+        Use the following OTP code to verify your email and proceed with the
+        signup process:
+      </p>
+      <div class="otp-code">{{OTP}}</div>
+      <p>
+        This OTP is valid for 5 minutes. Please do not share it with anyone.
+      </p>
+      <div class="footer">
+        &copy; 2025 TeamFortrans Electronics. All rights reserved.
+      </div>
+    </div>
+  </body>
+</html>

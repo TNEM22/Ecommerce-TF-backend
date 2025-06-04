@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OTP Verification</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f3f4f6;
+        padding: 20px;
+        text-align: center;
+      }
+      .container {
+        background-color: #ffffff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      .footer {
+        margin-top: 20px;
+        font-size: 12px;
+        color: #888888;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div style="width: 100%; display: flex; justify-content: center">
+        <img
+          src="https://res.cloudinary.com/dgcedlhpl/image/upload/v1742489604/white-logo_dmtnfb.png"
+          alt="TeamFortrans Electronics"
+          title="Team Fortrans Electronics"
+        />
+      </div>
+      <h1>Congratulations!! Order Placed!</h1>
+      <p>Following are the details of order:</p>
+      <p>OrderId: {{orderId}}</p>
+      <p>Amount Paid: ₹{{amount}}.00/-</p>
+      <div class="footer">
+        &copy; 2025 TeamFortrans Electronics. All rights reserved.
+      </div>
+    </div>
+  </body>
+</html>

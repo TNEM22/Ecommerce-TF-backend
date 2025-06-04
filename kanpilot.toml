@@ -1,0 +1,114 @@
+name = "project"
+skipFolders = [ "node_modules", ".vscode", "out", "dist", ".vscode-test" ]
+skipFiles = [ ".gitignore", "package.json" ]
+
+[[processes]]
+id = "process1"
+name = "To Do"
+
+  [[processes.tasks]]
+  id = "zhywkkzpv1td4urmo7al3tdp"
+  title = "Supplier Dashboard"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "ldmnwg7cyhjuhh3xjpdem190"
+  title = "SMOLLM Based product description generator and product enhancer"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "hv4y744kaxmfwloah3lluf7p"
+  title = "Transporter Dashboard"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "uqlbwcsom3z4dhpgawc61c4t"
+  title = "Admin Page"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "hpfkjeny9vpaspc3ypr5txpl"
+  title = "SMOLLM Based Searching Products"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+[[processes]]
+id = "process2"
+name = "In Progress"
+
+  [[processes.tasks]]
+  id = "ntdan6p58jutjqo7uj1xiv9y"
+  title = "Add Payment Gateway"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+[[processes]]
+id = "process3"
+name = "Done"
+
+  [[processes.tasks]]
+  id = "bnf7e1t9op2q0fmfvtdsgtjo"
+  title = "Implement Pagination"
+  description = "<p></p>"
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "i4tyk7s37zn6v6wam227bcmi"
+  title = "OTP Based SignUp"
+  description = "<p></p>"
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "q4tq7tmocxm95rlf7ytnce84"
+  title = "Implement CART"
+  description = "<p></p>"
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
